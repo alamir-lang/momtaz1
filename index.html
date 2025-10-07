@@ -1,334 +1,182 @@
-<!DOCTYPE html><html lang="ar" dir="rtl">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>معلم ممتاز رمضان لغة عربية & رياضيات & علوم & دراسات</title>
-  <meta name="google-site-verification" content="K4DDdLoJP6PTCo71dmTLfcVlrws2239SSsHrtjCIYZs" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="مُدرّس خاص في اللغة العربية والرياضيات والدراسات والعلوم في البحيرة – قرية ادم. دروس تأسيس وتقوية ومتابعة واجبات وحصص أونلاين وحضوري." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <title>أستاذ متميز — لغة عربية، رياضيات، علوم، دراسات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg:#0f172a;            /* slate-900 */
-      --card:#111827;          /* gray-900 */
-      --muted:#94a3b8;         /* slate-400 */
-      --text:#ffffff;          /* gray-200 */
-      --brand:#22c55e;         /* green-500 */
-      --brand-2:#06b6d4;       /* cyan-500 */
-      --ring: 0 0 0 3px rgba(34,197,94,.35);
-      --radius: 18px;
+      --bg:#f6f9fc;
+      --accent:#0b5cff;
+      --card:#ffffff;
+      --muted:#6b7280;
+      font-family: 'Cairo', Tahoma, sans-serif;
     }
     *{box-sizing:border-box}
-    html,body{margin:0;height:100%;scroll-behavior:smooth}
-    body{font-family:'Cairo',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; background: radial-gradient(1200px 600px at 80% -10%, rgb(176, 171, 255), transparent 60%), radial-gradient(900px 500px at -10% 20%, rgba(255, 255, 255, 0.15), transparent 60%), var(--bg); color:var(--text)}
-    a{color:inherit;text-decoration:none}
-    img{max-width:100%;display:block}
-    .container{width:100%;max-width:1100px;margin-inline:auto;padding-inline:20px}
-    /* Header */
-    header{position:sticky;top:0;z-index:50;background:rgba(15,23,42,.7);backdrop-filter: blur(10px);border-bottom:1px solid rgb(80, 63, 63)}
-    .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
-    .logo{display:flex;gap:12px;align-items:center;font-weight:800;letter-spacing:.4px}
-    .logo-badge{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--brand),var(--brand-2));display:grid;place-items:center;font-weight:800;color:#083344}
-    .nav a{opacity:.9}
-    .nav-links{display:flex;gap:18px}
-    .btn{display:inline-flex;align-items:center;gap:10px;border:none;border-radius:999px;padding:12px 18px;font-weight:700;cursor:pointer;transition:.2s transform,.2s opacity}
-    .btn:hover{transform:translateY(-1px);opacity:.95}
-    #but{    border-radius: 10px;
-    padding: 12px 15px;
-    border: none;
-    background-color: #003aa7;
-    color: #66036b;
-    cursor: pointer;}
-    .btn.whatsapp{background:linear-gradient(135deg,#25D366,#128C7E);color:rgb(44, 41, 41)}
-    .btn.line{background:transparent;border:1px solid rgba(255,255,255,.15);color:var(--text)}
+    body{margin:0;background:var(--bg);color:#0f1724;line-height:1.6}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo .mark{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#00bfa6);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav{display:flex;gap:18px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+    .btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+
     /* Hero */
-    .hero{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:32px;padding:56px 0}
-    .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid rgb(70, 58, 58);border-radius:999px;font-size:14px;color:var(--muted)}
-    h1{font-size:42px;line-height:1.2;margin:14px 0 12px}
-    .lead{color:#cbd5e1;max-width:65ch}
-    .hero-card{background:linear-gradient(180deg, rgba(104, 95, 95, 0.919), rgba(59, 49, 49, 0.885));border:1px solid rgba(57, 49, 49, 0.879);padding:18px;border-radius:var(--radius);box-shadow:0 10px 30px rgba(0,0,0,.25)}
-    .photo{aspect-ratio:4/5;border-radius:16px;object-fit:cover;border:1px solid rgb(146, 210, 255)}
-    .profile-pic {
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-  border: 3px solid rgb(248, 11, 11);
-  margin-bottom: 15px;
-}
-    .hero-cta{display:flex;gap:12px;margin-top:14px;flex-wrap:wrap}
-    /* Cards */
-    .grid{display:grid;gap:16px}
-    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));border:1px solid rgba(143, 231, 255, 0.938);padding:20px;border-radius:var(--radius);min-height:170px}
-    .card h3{margin:6px 0 8px}
-    .muted{color:var(--muted)}
-    .tag{display:inline-block;background:rgba(34,197,94,.12);border:1px solid rgba(0, 51, 255, 0.901);color:#bbf7d0;padding:4px 10px;border-radius:999px;font-size:13px}
-    /* Section spacing */
-    section{padding:38px 0}
-    .section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:16px}
-    .section-head h2{margin:0}
-    .sub{color:var(--muted)}
-    /* Features */
-    img {
-  max-width: 100%;
-  height: auto;}
-    .features .item{display:flex;gap:12px;align-items:flex-start}
-    .features svg{flex:0 0 28px}
-    /* Pricing */
-    .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-    .price{padding:22px;border-radius:var(--radius);border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02))}
-    .price .amount{font-size:32px;font-weight:800;margin:6px 0}
-    .price ul{margin:0;padding:0;list-style:none;display:grid;gap:8px}
-    .price li{display:flex;gap:8px;align-items:center}
-    /* Contact */
-    .contact{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-    .field{display:grid;gap:6px}
-    .input,textarea{background:#0b1220;color:var(--text);border:1px solid rgba(255,255,255,.12);padding:12px 14px;border-radius:12px;outline:none}
-    .input:focus,textarea:focus{box-shadow:var(--ring);border-color:rgba(26, 11, 233, 0.951)}
-    textarea{min-height:128px}
-    /* Footer */
-    footer{border-top:1px solid rgba(255,255,255,.08);padding:26px 0;color:var(--muted)}
-    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1.2fr;gap:16px}
-    .mini{font-size:14px}
-    .map{width:100%;height:260px;border:0;border-radius:14px;filter:saturate(1.05) contrast(1.05)}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center;margin-top:18px}
+    .hero-card{background:var(--card);padding:28px;border-radius:14px;box-shadow:0 6px 20px rgba(11,92,255,0.06)}
+    h1{margin:0 0 8px;font-size:28px}
+    p.lead{margin:0;color:var(--muted)}
+
+    .subjects{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}
+    .subject{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(10,10,10,0.04);display:flex;gap:12px;align-items:center}
+    .icon{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,#fff,rgba(0,0,0,0.03));display:flex;align-items:center;justify-content:center;font-weight:800}
+    .subject h3{margin:0;font-size:18px}
+    .subject p{margin:4px 0 0;color:var(--muted);font-size:14px}
+
+    /* About & schedule */
+    .two-col{display:grid;grid-template-columns:1fr 380px;gap:18px;margin-top:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(10,10,10,0.04)}
+
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:10px;text-align:center;border-bottom:1px solid #f2f4f7}
+    th{background:#f8fafc}
+
+    form{display:flex;flex-direction:column;gap:10px}
+    input,textarea,select{padding:10px;border-radius:8px;border:1px solid #e6e9ef;font-size:15px}
+    .muted{color:var(--muted);font-size:14px}
+
+    footer{margin-top:28px;padding:18px 0;text-align:center;color:var(--muted)}
+
     /* Responsive */
-    #mm{background-color: #06b6d4;}
-/* للموبايل */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-    padding: 10px;
-  }
-  .container {
-    flex-direction: column;
-  }
-}
-
-/* للتابلت */
-@media (min-width: 769px) and (max-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-/* للابتوب والديسكتوب */
-@media (min-width: 1025px) {
-  body {
-    font-size: 18px;
-  }
-}
-
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .two-col{grid-template-columns:1fr}
+      .subjects{grid-template-columns:1fr}
+      nav{display:none}
+    }
   </style>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="container nav">
-      <a class="logo" href="#home" aria-label="الصفحة الرئيسية">
-        <span class="logo-badge">ممتاز</span>
-        <span>مُدرّس عربي & رياضيات & علوم & دراسات  </span>
-      </a>
-      <nav class="nav-links mini">
-        <a href="#services">الخدمات</a>
-        <a href="#about">نبذة</a>
-        <a href="#pricing">الأسعار</a>
-        <a href="#contact">الحجز والتواصل</a>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="mark">أ</div>
+        <div>
+          <div style="font-weight:700">أستاذ متميز</div>
+          <div class="muted" style="font-size:13px">لغة عربية • رياضيات • علوم • دراسات</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">عن المدرس</a>
+        <a href="#subjects">المواد</a>
+        <a href="#schedule">الجدول</a>
+        <a href="#contact" class="btn">احجز درسًا</a>
       </nav>
-      <a class="btn whatsapp mini" href="https://wa.me/+20110602939" target="_blank" rel="noopener">واتساب</a>
-    </div>
-  </header>  <!-- Hero -->  <main id="home" class="container hero">
-    <div>
-      <span class="pill mini">النوبارية . قرية ادم</span>
-      <h1>مُدرّس لغة عربية ورياضيات وعلوم ودراسات وتاسيس<span style="background:linear-gradient(90deg,var(--brand),var(--brand-2));-webkit-background-clip:text;background-clip:text;color:transparent">للصفوف الأولية </span></h1>
-      <p class="lead">تأسيس قوي في القراءة والكتابة والحساب، متابعة واجبات، وتهيئة للاختبارات بمنهج مبسّط وشرح ممتع حضوريًا في قرية ادم أو أونلاين عبر تطبيقات الاتصال.</p>
-      <div class="hero-cta">
-        <a class="btn whatsapp" href="https://wa.me/+20110602939?text=السلام عليكم، أود الحجز" target="_blank" rel="noopener">
-          <!-- WhatsApp icon -->
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.52 3.48A11.94 11.94 0 0 0 12.01 0C5.4 0 .04 5.35.04 11.95c0 2.1.55 4.16 1.6 5.97L0 24l6.25-1.64a11.9 11.9 0 0 0 5.75 1.47h.01c6.6 0 11.96-5.36 11.96-11.96 0-3.2-1.25-6.21-3.45-8.39ZM12 21.82h-.01a9.85 9.85 0 0 1-5.02-1.37l-.36-.21-3.71.98.99-3.62-.24-.37a9.87 9.87 0 0 1-1.52-5.25C2.13 6.5 6.56 2.1 12 2.1c2.64 0 5.12 1.03 6.98 2.9a9.83 9.83 0 0 1 2.88 6.95c0 5.44-4.43 9.87-9.86 9.87Zm5.41-7.41c-.29-.15-1.71-.84-1.98-.93-.27-.1-.47-.15-.67.15-.2.29-.77.92-.95 1.1-.18.2-.36.22-.66.08-.29-.14-1.23-.45-2.34-1.42-.86-.77-1.43-1.7-1.6-2-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.29-.49.1-.2.05-.36-.02-.52-.07-.15-.66-1.6-.9-2.2-.24-.58-.48-.5-.66-.5-.17 0-.36-.02-.56-.02-.2 0-.51.08-.77.36-.26.29-1 1-1 2.44 0 1.43 1.03 2.82 1.18 3.02.15.2 2.03 3.1 4.9 4.35.68.29 1.2.46 1.6.6.67.21 1.28.18 1.76.11.54-.08 1.71-.7 1.95-1.37.24-.68.24-1.27.17-1.37-.06-.1-.25-.16-.54-.31Z" fill="currentColor"/></svg>
-          تواصل واتساب
-        </a>
-        <a class="btn line" href="#contact">حجز موعد سريع</a>
-      </div>
-      <div class="grid cols-3" style="margin-top:20px">
-        <div class="card">
-          <span class="tag">تأسيس مبكّر</span>
-          <h3>الصفوف الأولية</h3>
-          <p class="muted">قراءة وكتابة وإملاء وحساب بطرق تفاعلية ممتعة. متابعة</p>
-        </div>
-        <div class="card">
-          <span class="tag">تقوية ومتابعة</span>
-          <h3>ابتدائي </h3>
-          <p class="muted">مراجعة المنهج، حل الواجبات والاختبارات التجريبية.</p>
-        </div>
-        <div class="card">
-          <span class="tag">حضوري & أونلاين</span>
-          <h3>مرونة بالحضور</h3>
-          <p class="muted">داخل قرية ادم او <mark id="mm">القرى المجاورة</mark> واتواصل انترنت خارج القرية</p>
-        </div>
-      </div>
-    </div><div class="hero-card">
-  
-     <section class="hero">
-    <img src="/WhatsApp Image 2025-09-24 at 1.28.47 PM.jpeg" alt="القيصر" class="profile-pic">
-  <div class="mini muted" style=></div>
-</div>
+    </header>
 
-  </main>  <!-- Services -->  <section id="services" class="container">
-    <div class="section-head">
-      <div>
-        <h2>الخدمات التعليمية</h2>
-        <div class="sub">خطط مخصّصة بحسب مستوى كل طالبة/طالب</div>
-      </div>
-    </div>
-    <div class="features grid">
-      <div class="item card">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2 2 7l10 5 10-5-10-5Zm0 9L2 6v11l10 5 10-5V6l-10 5Z" stroke="currentColor" stroke-width="1.4"/></svg>
-        <div>
-          <h3>لغة عربية </h3>
-          <p class="muted">قراءة، فهم مقروء، إملاء، قواعد بأساليب مبسطة وتمارين شيّقة. نحو </p>
+    <section class="hero">
+      <div class="hero-card">
+        <h1>تعلم بثقة وتفوق — دروس خصوصية لكل المراحل</h1>
+        <p class="lead">أقدم دروسًا خصوصية في: اللغة العربية، الرياضيات، العلوم، والدراسات الاجتماعية — خطة دراسية مخصصة، تمارين عملية، ومتابعة مستمرة.</p>
+        <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+          <a href="#contact" class="btn">احجز الآن</a>
+          <a href="#subjects" style="padding:10px 14px;border-radius:10px;background:#eef6ff;color:var(--accent);text-decoration:none;font-weight:700">اطّلع على المناهج</a>
         </div>
       </div>
-      <div class="item card">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 3h18M3 9h18M3 15h18M3 21h18" stroke="currentColor" stroke-width="1.4"/></svg>
-        <div>
-          <h3>رياضيات</h3>
-          <p class="muted">العلوم والهندسة: لصياغة القوانين الفيزيائية والتصاميم الهندسية.
-التكنولوجيا: في البرمجة، والخوارزميات، وتطوير الذكاء الاصطناعي.
-الاقتصاد والمال: في التحليل المالي والإحصاء واتخاذ القرارات المعقدة</p>
-        </div>
-                <div>
-          <h3>علوم</h3>
-          <p class="muted">الملاحظة: طرح سؤال بناءً على شيء تمت ملاحظته.
-الفرضية: اقتراح إجابة أو تفسير مؤقت (تخمين مدروس).
-التجريب: تصميم وتنفيذ تجربة لاختبار الفرضية.
-التحليل: دراسة نتائج التجربة.
-الاستنتاج: تحديد ما إذا كانت النتائج تدعم الفرضية أم ترفضها</p>
-        </div>
-      </div>
-      <div class="item card">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 1v22M1 12h22" stroke="currentColor" stroke-width="1.4"/></svg>
-        <div>
-          <h3>تهيئة للاختبارات</h3>
-          <p class="muted">مراجعات مركّزة ونماذج أسئلة وتجارب محاكاة لرفع الثقة.</p>
-        </div>
-      </div>
-    </div>
-  </section>  <!-- About -->  <section id="about" class="container">
-    <div class="section-head">
-      <div>
-        <h2>نبذة عني</h2>
-        <div class="sub">خبرة، صبر، واهتمام بتفاصيل كل طالب/ـة</div>
-      </div>
-    </div>
-    <div class="grid" style="grid-template-columns:1.2fr .8fr;gap:16px">
-      <div class="card">
-        <p>أنا معلم ممتاز رمضان مدرس تاسيس  <strong>اللغة العربية تاسيس </strong> و <strong>الرياضيات </strong>، أٌقدٌم دروس تأسيس وتقوية للمرحلة الابتدائية  حضوريًا في <strong>البحيرة - لنوبارية- قرية ادم
-          <li>خطة تعلم فردية لكل طالب حسب مستواه. </li>
-          <li>متابعة أسبوعية وتقارير لولي الأمر عند الطلب. </li>
-          <li>مواد وأنشطة تفاعلية وتمارين منزلية مبسطة. </li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3 style="margin-top:0">الموقع الجغرافي</h3>
-        <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
-  src="https://maps.google.com/maps?q=30.630892,29.9710331&z=17&hl=ar&output=embed" 
-  title="خريطة النوبارية - البحيرة - قرية ادم"></iframe>
 
-        <div class="mini muted" style="margin-top:8px">* الدروس الحضورية داخل أدم والمجاورة القريبة.</div>
-      </div>
-    </div>
-  </section>  <!-- Pricing -->  <section id="pricing" class="container">
-    <div class="section-head">
-      <div>
-        <h2>الباقات والأسعار</h2>
-        <div class="sub">أسعار تقديرية — يمكن تخصيص باقة حسب الحاجة</div>
-      </div>
-    </div>
-    <div class="pricing">
-      <div class="price">
-        <div class="tag">حصة تجريبية</div>
-        <div class="amount">مجانية</div>
-        <ul class="muted">
-          <li> تكون اول حصة مجانية مجموعة او خصوصي</li>
-          <li>📋 توصية خطة دراسة</li>
-          <li>💬 استشارة لولي الأمر</li>
-        </ul>
-      </div>
-      <div class="price" style="outline:2px solid rgba(34,197,94,.25)">
-        <div class="tag">الأكثر طلبًا</div>
-        <div class="amount">حسب ج.ه / الحصة: مجموعة او خاص</div>
-        <ul class="muted">
-          
-          <li>📚 عربي أو رياضيات او علوم او دراسات</li>
-          <li>🧠 واجبات وتمارين منزلية</li>
-        </ul>
-        <div style="margin-top:12px">
-          <a class="btn whatsapp mini" href="https://wa.me/+20110602939?text=أرغب%20بحجز%20حصة" target="_blank" rel="noopener">احجز الآن</a>
+      <aside>
+        <div class="card" style="text-align:center">
+          <img src="/WhatsApp Image 2025-09-24 at 1.28.47 PM.jpeg" alt="صورة مدرس" style="width:100%;border-radius:8px;display:block;margin-bottom:12px" />
+          <div style="font-weight:700">الأستاذ / ممتاز رمضان</div>
+          <div class="muted" style="font-size:14px;margin-top:6px">بكالوريوس تربية — خبرة في تحضير الطلاب للامتحانات</div>
         </div>
-      </div>
-      <div class="price">
-        <div class="tag">باقة شهرية</div>
-        <div class="amount">حسب ج.ه</div>
-        <ul class="muted">
-        
-          <li>📈 تقرير تقدّم شهري</li>
-          <li>📞 متابعة سريعة عبر واتساب</li>
-        </ul>
-      </div>
-    </div>
-  </section>  <!-- Contact -->  <section id="contact" class="container">
-    <div class="section-head">
-      <div>
-        <h2>الحجز والتواصل</h2>
-        <div class="sub">أرسل رسالة وسأرجع لك في أقرب وقت</div>
-      </div>
-    </div>
-    <div class="contact">
-      <form class="card" onsubmit="event.preventDefault(); alert('تم إرسال رسالتك ✅'); this.reset();">
-        <div class="field">
-          <label class="mini" for="name">الاسم</label>
-          <input class="input" id="name" required placeholder="اسم ولي الأمر أو الطالب" />
-        </div>
-        <div class="field">
-          <label class="mini" for="phone">رقم الجوال</label>
-          <input class="input" id="phone" type="tel" required placeholder="+201xxxxxxxx" />
-        </div>
-        <div class="field">
-          <label class="mini" for="msg">الرسالة</label>
-          <textarea id="msg" class="input" placeholder="اكتب مستوى الطالب والمرحلة والوقت المناسب..."></textarea>
-        </div>
-        <button class="btn" style="background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#042f2e ">إرسال</button>
-      </form><div class="card">
-    <h3 style="margin-top:0">معلومات التواصل</h3>
-    <ul class="mini" style="list-style:none;padding:0;margin:0;display:grid;gap:8px">
-      <li>📍 البحيرة – قرية ادم</li>
-      <li>📞 <a href="tel:0110602939">0110602939</a></li>
-      <li>📞 <a href="tel:01555302266">01555302266</a></li>
-      <a href="tel:0110602939" class="inline-flex items-center gap-2 bg-white text-[var(--brand)] px-6 py-3 rounded-2xl font-bold shadow hover:translate-y-0.5 transition">اتصل الآن 📞</a>
-      <li>💬 <a href="https://wa.me/+20110602939" target="_blank" rel="noopener">واتساب مباشر</a></li>
+      </aside>
+    </section>
 
-    </ul>
-    <div style="margin-top:14px">
-      <a class="btn line mini" href="#pricing">اطّلع على الباقات</a>
-      <a href="tel:011060293" ><button id="but">اتصل الان</button></a>
-    </div>
+    <section id="subjects" class="subjects">
+      <div class="subject">
+        <div class="icon">ع</div>
+        <div>
+          <h3>اللغة العربية</h3>
+          <p>قواعد، نحو، إملاء، تحليل نصوص، وتدريبات للكتابة والتعبير.</p>
+        </div>
+      </div>
+
+      <div class="subject">
+        <div class="icon">∑</div>
+        <div>
+          <h3>الرياضيات</h3>
+          <p>جبر، هندسة، حساب، مسائل لفظية، وتحضير للامتحانات.</p>
+        </div>
+      </div>
+
+      <div class="subject">
+        <div class="icon">⚗</div>
+        <div>
+          <h3>العلوم</h3>
+          <p>فيزياء، كيمياء، أحياء — تجارب مبسطة وشرح مفهومي.</p>
+        </div>
+      </div>
+
+      <div class="subject">
+        <div class="icon">🗺</div>
+        <div>
+          <h3>الدراسات الاجتماعية</h3>
+          <p>تاريخ، جغرافيا، تربية وطنية ومهارات تحليل الأحداث.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="two-col">
+      <div class="card" id="about">
+        <h2>عن المدرس</h2>
+        <p class="muted">أهلاً! أنا أستاذ متخصص في تدريس المواد الأساسية للمرحلة الابتدائية والإعدادية والثانوية. أستخدم طرق تفاعلية تجمع بين الشرح النظري والتطبيق العملي مع متابعة أداء الطالب أسبوعيًا.</p>
+      </div>
+
+      <aside class="card" id="schedule">
+        <h3>الجدول والأسعار</h3>
+        <table>
+          <thead>
+            <tr><th>البرنامج</th><th>المدة</th><th>السعر</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>درس تجريبي</td><td>30 دقيقة</td><td>مجاني</td></tr>
+            <tr><td>درس فردي</td><td>60 دقيقة</td><td>200 جنيه</td></tr>
+            <tr><td>باقة شهرية (8 دروس)</td><td>-</td><td>1400 جنيه</td></tr>
+          </tbody>
+        </table>
+      </aside>
+    </section>
+
+    <section class="card" id="contact" style="margin-top:18px">
+      <h2>تواصل وحجز</h2>
+      <form action="#" onsubmit="alert('شكراً! تم إرسال طلب الحجز.');return false;">
+        <label>الاسم الكامل</label>
+        <input type="text" placeholder="أدخل اسمك" required />
+
+        <label>رقم الهاتف</label>
+        <input type="tel" placeholder="مثل: 01XXXXXXXXX" required />
+
+        <label>المادة المطلوبة</label>
+        <select>
+          <option>اللغة العربية</option>
+          <option>الرياضيات</option>
+          <option>العلوم</option>
+          <option>الدراسات</option>
+        </select>
+
+        <label>ملاحظات (اختياري)</label>
+        <textarea rows="4" placeholder="مثال: المرحلة الدراسية، المناطق الضعيفة، توقيت مفضل"></textarea>
+
+        <button class="btn" type="submit">إرسال طلب</button>
+      </form>
+    </section>
+
+    <footer>
+      <div>© 2025 أستاذ متميز — جميع الحقوق محفوظة</div>
+    </footer>
   </div>
-</div>
-
-  </section>  <footer>
-    <div class="container footer-grid"> 
-      <div>
-        <strong>مُمتاز رمضان</strong>
-         <a href="tel:011060293" class="inline-block text-2xl font-black text-[var(--brand)]">011060293</a>
-        <div class="mini">النابورية -  قرية ادم</div>
-      </div>
-      <div class="mini">© <span id="y"></span> جميع الحقوق محفوظة</div>
-      <div class="mini" style="text-align:start"></div>
-    </div>
-  </footer>  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script></body>
+</body>
 </html>
